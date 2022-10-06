@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "jsx": "react",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "lib": [
+      "es2015", 
+      "webworker",
+      "DOM",
+      "ScriptHost",
+    ],
+    "allowJs": true,
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": ["src/*.ts", "src/**/*.ts", "src/*.tsx", "src/**/*.tsx"],
+  "extends": "expo/tsconfig.base"
+}
